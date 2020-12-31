@@ -1,0 +1,13 @@
+nav div.navbar-collapse div.ml-auto.navbar-nav a,
+nav div.navbar-collapse div.ml-auto.navbar-nav a:hover,
+span.navbar-brand a,
+span.navbar-brand a:hover{
+  color: #f7f7f7 !important;
+  text-decoration: none;
+}
+
+div.navbar-nav a{
+  font-size: 12px;
+  letter-spacing: .1rem;
+  margin: 5px 1px;
+}

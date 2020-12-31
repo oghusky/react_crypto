@@ -1,0 +1,10 @@
+.courses{
+  width: 65%;
+  margin: 0 auto;
+}
+h3,h5,h6,p,a{
+  color: #f7f7f7;
+}
+hr{
+  border: 1px solid #f7f7f7;
+}

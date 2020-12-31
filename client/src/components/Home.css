@@ -1,0 +1,139 @@
+/* stockbar styles */
+div.d-flex.stock-bar{
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  overflow-x: auto;
+}
+div.stock-td p {
+  margin-bottom: 0;
+  font-size: 11px;
+  width: 5rem;
+}
+div.stock-td p.stock-abbr{
+  font-weight: bold;
+  color: #f7f7f7;
+}
+div.stock-td p.stock-cost{
+  font-weight: bold;
+}
+div.stock-td{
+  padding: .5rem;
+}
+/* end stockbar */
+
+table tr td{
+  font-size: 12px;
+}
+
+table tr td img{
+  height: 20px;
+  width: auto;
+}
+
+/* articles */
+h3.article-header{
+  color: #f7f7f7;
+  text-transform: uppercase;
+}
+div.article-div{
+  position: relative;
+  margin-top: 1rem;
+}
+div.article-bar{
+  overflow-x: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  position: relative;
+  margin: 0 auto !important;
+  width: 100% !important;
+}
+div.article-bar::-webkit-scrollbar{
+  display:none;
+}
+div.col-md-4.col-sm-12{
+  padding: .5rem; 
+}
+div.card{
+  border:none;
+  border-radius: 0;
+  background-color: #121212;
+}
+img.card-img{
+  border:none;
+  border-radius: 0;
+}
+div.card-body{
+  background-color: #121212;
+  color: #f7f7f7;
+}
+div.arrow-div{
+  margin: 1rem auto;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  transform: translateY(-50%);
+}
+span.arrow i.fas{
+  background-color: rgba(129, 129, 139,0.5);
+  padding: 1rem;
+  color: #f7f7f7;
+  font-size: 1.5rem;
+  z-index: 1000;
+  /* border-radius: 50%; */
+}
+a.article-link:hover{
+  text-decoration: none;
+}
+/* end articles */
+
+
+
+/* media queries */
+/* 414px */
+@media screen and (max-width: 414px){
+  div.arrow-div{
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  div.stock-td p {
+    font-size:.9rem;
+  }
+  div.arrow-div{
+    width: 100%;
+  }
+  div.stock-bar div.stock-td:first-child{
+    margin-left: 24rem !important;
+  }
+  p.per_change{
+    display: none;
+  }
+}
+/* 360px */
+@media screen and (max-width: 425px){
+  div.stock-bar div.stock-td:first-child{
+    margin-left: 28rem !important;
+  }
+  table.stock-table td:nth-child(1),
+  table.stock-table td:nth-child(6),
+  table.stock-table td:nth-child(7),
+  table.stock-table tr th:nth-child(1),
+  table.stock-table tr th:nth-child(6),
+  table.stock-table tr th:nth-child(7){
+    display:none;
+  }
+  div.my-3.mx-0.courses{
+    margin-right: 0 !important;
+    width: 90%;
+  }
+  div.pr-0.pl-3.col-md-4{
+    margin-left: 1rem;
+    width: 100%;
+  }
+  div.pr-0.pl-3.col-md-4 h5,
+  .for-courses .p-btn{
+    text-align: center;
+  }
+}

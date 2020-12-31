@@ -1,0 +1,59 @@
+{
+  "courses": [
+    {
+      "link": "https://www.unic.ac.cy/blockchain/free-mooc/",
+      "title": "DFIN 511: Introduction to Digital Currencies (Offered By UNIC)",
+      "summary": "This free online course is taught by Andreas Antonopoulos (author of Mastering Bitcoin) and Antonis Polemitis and it represents the first course in the MSc in Digital Currency offered by UNIC. The course places bitcoin and cryptocurrencies in the broader framework of the history of money, before talking about the practical implementation of bitcoin, other cryptocurrencies, and the evolving relationship between digital currencies and financial institutions, as well as the broader world.It requires no prerequisite knowledge of cryptocurrencies to dive in. There is a final exam component at the end that tests your grasp of the concepts taught."
+    },
+    {
+      "link": "https://www.coinbase.com/learn",
+      "title": "Coinbase Learn",
+      "summary": "This simple set of interactive flashcards is a great resource for those who want to cover the basics of cryptocurrencies, from buying and selling to mining in a short amount of time. Other than a slight advertisement of Coinbase as safe and regulated, the mini-course remains an objective resource that covers a lot of ground in a surprisingly intuitive and short fashion. A great resource to share with absolute beginners who have little time on their hands and want to get up to speed fast."
+    },
+    {
+      "link": "https://www.coursera.org/learn/cryptocurrency#",
+      "title": "Coursera (Bitcoin and Cryptocurrency Technologies) Offered By Princeton University",
+      "summary": "This free Coursera course introduces basic cryptography concepts and then links them to the basics of Bitcoin. Through videos, the course lecturer explains how decentralization is implemented in practice, how Bitcoin mining works, and how Bitcoins are stored. A short explanation is then given to altcoins and the future of the space."
+    },
+    {
+      "link": "https://www.edx.org/course/bitcoin-and-cryptocurrencies?",
+      "title": "EdX (Bitcoin and Cryptocurrencies) Offered By UC Berkeley",
+      "summary": "This UC Berkeley EdX course differentiates itself by also offering a dedicated section to the Ethereum Virtual Machine, along with a specific section focused on the game theory of what it would take to attack the Bitcoin blockchain -- a fresh approach to enumerating the theoretical security pitfalls of the system."
+    },
+    {
+      "link": "https://www.youtube.com/playlist?list=PLzctEq7iZD-7-DgJM604zsndMapn9ff6q",
+      "title": "101 Blackboard Series",
+      "summary": "This Youtube series focuses on some specific technical elements within bitcoin, from the components of private keys, to confronting the scaling and centralization risks sometimes inherent in the way bitcoin and cryptocurrencies are implemented in practice."
+    },
+    {
+      "link": "https://www.ethereum.org/learn/",
+      "title": "Ethereum (Learn Section)",
+      "summary": "The learning section of the ethereum.org website (the official website for ethereum) includes a series of free resources that are curated together in lots of detail about ethereum, the second largest cryptocurrency by market capitalization. It dives into the smart contracts side of ethereum, as well as the basics, and also focuses on knowledge for the latest updates and roadmap for ethereum. At the end, a section is dedicated to criticism and other perspectives on how ethereum could be doing better -- leaving it a fairly well-balanced selection of knowledge about the ecosystem that is packaged like a curated course."
+    },
+    {
+      "link": "https://www.udemy.com/introduction-to-cryptocurrencies/",
+      "title": "Udemy (Introduction to Cryptocurrencies and Blockchain)",
+      "summary": "A free course with about two hours worth of video on the basics of distributed systems and its placement in the history of money. Perhaps a good resource for people who want to take a slightly slower pace than the Coinbase flashcards, but don't want to be fully immersed in different elements of blockchain and different parts of the ecosystem as with the fully-fleshed out courses presented by EdX and Coursera."
+    },
+    {
+      "link": "https://www.edx.org/course/blockchain-for-business-an-introduction-to-hyperledger-technologies",
+      "title": "EdX (Introduction to Hyperledger Blockchain Technologies)",
+      "summary": "This EdX course, offered through the Linux Foundation (which is building the HyperLedger framework) offers an introductory course to blockchain and what role HyperLedger plays in the space, as well as the tools available. It's built for a non-technical business audience, and is an introductory course to blockchain principles outside of the discussion around Bitcoin, Ethereum and other cryptocurrencies. The course itself is free, but a verified certificate from EdX will cost $99 USD."
+    },
+    {
+      "link": "https://cognitiveclass.ai/courses/blockchain-course/",
+      "title": "DeveloperWorks (Blockchain Essentials)",
+      "summary": "This video course, developed in partnership with IBM, and taught by two developers in IBM's blockchain enablement division, goes over the basics of blockchain then leads to a demo and lab component where you can actually work with the HyperLedger framework and practice with it. You'll be able to use the HyperLedger Composer after this course. While slightly more technical, the level is still marked for beginners, even non-technical ones."
+    },
+    {
+      "link": "https://www.coinbase.com/earn",
+      "title": "Coinbase Earn",
+      "summary": "What's better than free? Earning money for learning. Coinbase offers a selection of introductory courses and quizzes in cryptocurrencies that don't often have a dedicated course, such as Dai (a stablecoin), EOS and privacy focused ZCash. This will allow any learner to get a more holistic view of altcoins and different cryptocurrencies than the standard courses focused on bitcoin and ethereum. You'll earn small amounts of the cryptocurrency in question for answering quiz questions on the topic, so you'll have a small amount to work with in practice after."
+    },
+    {
+      "link": "https://www.ivey.uwo.ca/cryptoeconomics-lab/cryptoeconomics-textbook/",
+      "title": "Cryptoeconomics Textbook",
+      "summary": "This mini-textbook course, offered by Ivey Business School in Canada (associated with the University of Western Ontario), focuses on a crash course to bitcoin in the framework of the economic impact and aspects of bitcoin activities. Consider it a mini-crash course in bitcoin that also ties it to its broader economic impact."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,800;1,700&display=swap');
+:root{
+  --white: #f7f7f7;
+  --primaryp: #bb86fc;
+  --primary_variant: #3700B3;
+  --secondary: #03dac6;
+  --error: #CF6679;
+  --bg: #121212;
+  --black: #000000;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  background-color: var(--bg) !important;
+  color: var(--light-grey) !important;
+}
+/* navbar */
+nav.navbar span.navbar-brand{
+  color: var(--white);
+}
+nav.navbar button.navbar-toggler{
+  outline:none;
+  border:none;
+}
+nav.navbar button.navbar-toggler:focus{
+  outline:none;
+  border:none;
+}
+button.navbar-toggler span.navbar-toggler-icon{
+  color: var(--white);
+}
+nav.navbar div.navbar-nav .nav-link{
+  color: var(--white);
+}
+footer{
+  background-color: var(--primaryp);
+  margin-bottom: -1rem;
+}
+footer p{
+  color: var(--black);
+  padding: 1rem;
+}
+/* media queries */
+/* 414px */
+@media screen and (max-width: 414px){
+  div.container{
+    padding: 0 !important;
+  }
+}
