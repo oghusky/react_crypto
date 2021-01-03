@@ -45,6 +45,33 @@ footer p{
   padding: 1rem;
 }
 /* media queries */
+/* 425px */
+@media screen and (max-width: 425px){
+  div.stock-bar div.stock-td:first-child{
+    margin-left: 28rem !important;
+  }
+  table.stock-table td:nth-child(1),
+  table.stock-table td:nth-child(6),
+  table.stock-table td:nth-child(7),
+  table.stock-table tr th:nth-child(1),
+  table.stock-table tr th:nth-child(6),
+  table.stock-table tr th:nth-child(7){
+    display:none;
+    background: white;
+  }
+  div.my-3.mx-0.courses{
+    margin-right: 0 !important;
+    width: 90%;
+  }
+  div.pr-0.pl-3.col-md-4{
+    margin-left: 1rem;
+    width: 100%;
+  }
+  div.pr-0.pl-3.col-md-4 h5,
+  .for-courses .p-btn{
+    text-align: center;
+  }
+}
 /* 414px */
 @media screen and (max-width: 414px){
   div.container{

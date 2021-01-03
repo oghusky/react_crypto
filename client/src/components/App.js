@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // css
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 // components
 import BitContext from '../utils/bitContext';
 import Navigation from './Navigation';

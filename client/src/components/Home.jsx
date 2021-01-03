@@ -10,7 +10,6 @@ import Table from 'react-bootstrap/Table';
 import StockBar from './StockBar';
 export default function Home() {
   const { stocks, articles, sources, videos } = useContext(BitContext);
-  console.log(sources);
   return (
     <div className="Home">
       <StockBar />
@@ -18,7 +17,7 @@ export default function Home() {
         <Col md={8}>
           <h5 className="text-center mt-3" style={{ color: "#f7f7f7" }}>Overview</h5>
           <Container>
-            <Table style={{ width: "80%", margin: "0 auto" }} class="stock-table">
+            <Table style={{ width: "80%", margin: "0 auto" }} className="stock-table">
               <thead>
                 <tr style={{ color: "#f7f7f7" }}>
                   <th></th>
@@ -90,6 +89,7 @@ export default function Home() {
           {videos.map(item => {
             return <Col md={4} key={item} className="p-3">
               <iframe
+                title={item}
                 style={{ display: "block", margin: "0 auto" }}
                 id="ytplayer"
                 type="text/html"
@@ -114,7 +114,7 @@ export default function Home() {
             }).slice(0, 3)}
           </div>
           <p className="p-btn">
-            <button className="btn" style={{ background: "transparent", border: "1px solid #03DAC6", color: "#03DAC6" }}><Link to="/learn">SEE MORE</Link></button>
+            <button className="btn" style={{ background: "transparent", border: "1px solid #03DAC6", color: "#03DAC6" }}><Link to="/courses">SEE MORE</Link></button>
           </p>
         </Col>
       </Row>

@@ -6,7 +6,6 @@ import Row from 'react-bootstrap/Row';
 import BitContext from '../utils/bitContext';
 export default function Videos() {
   const { videos } = useContext(BitContext);
-  console.log(videos);
   return (
     <div>
       <StockBar />
@@ -16,6 +15,7 @@ export default function Videos() {
           {videos.map(item => {
             return <Col md={4} key={item} className="p-3">
               <iframe
+                title={item}
                 style={{ display: "block", margin: "0 auto" }}
                 id="ytplayer"
                 type="text/html"

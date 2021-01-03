@@ -8,7 +8,7 @@ export default function Stocks() {
   return (
     <div>
       <h3 className="text-center" style={{ color: "#f7f7f7" }}><span style={{ color: "#BB86FC" }}>STOCK</span> OVERVIEW</h3>
-      <Table style={{ width: "70%", margin: "0 auto" }}>
+      <Table style={{ width: "70%", margin: "0 auto" }} className="stock-table">
         <thead>
           <tr style={{ color: "#f7f7f7" }}>
             <th></th>
