@@ -8,10 +8,12 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
 import StockBar from './StockBar';
+import SEO from './SEO'
 export default function Home() {
   const { stocks, articles, sources, videos } = useContext(BitContext);
   return (
     <div className="Home">
+      <SEO title="Home" />
       <StockBar />
       <Row>
         <Col md={8}>

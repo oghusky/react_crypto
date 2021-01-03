@@ -2,11 +2,13 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import BitContext from '../utils/bitContext';
 import Table from 'react-bootstrap/Table';
+import SEO from './SEO';
 
 export default function Stocks() {
   const { stocks } = useContext(BitContext);
   return (
     <div>
+      <SEO title="Stock Overview" />
       <h3 className="text-center" style={{ color: "#f7f7f7" }}><span style={{ color: "#BB86FC" }}>STOCK</span> OVERVIEW</h3>
       <Table style={{ width: "70%", margin: "0 auto" }} className="stock-table">
         <thead>

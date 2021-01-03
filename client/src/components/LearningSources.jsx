@@ -4,12 +4,14 @@ import Container from 'react-bootstrap/Container';
 import StockBar from './StockBar'
 // context
 import BitContext from '../utils/bitContext';
+import SEO from './SEO';
 // css
 import './LearningSources.css'
 export default function LearningSources() {
   const { sources } = useContext(BitContext)
   return (
     <div>
+      <SEO title="Learning Sources" />
       <StockBar />
       <Container>
         <h3 className="text-center my-3 article-header">FREE <span style={{ color: "#BB86FC", letterSpacing: ".12rem", fontWeight: "bold" }}>Crypto</span>currency Courses</h3>

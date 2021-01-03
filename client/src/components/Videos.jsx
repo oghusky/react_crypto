@@ -4,10 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import BitContext from '../utils/bitContext';
+import SEO from './SEO';
 export default function Videos() {
   const { videos } = useContext(BitContext);
   return (
     <div>
+      <SEO title="Videos" />
       <StockBar />
       <Container>
         <h3 className="text-center mt-3" style={{ color: "#f7f7f7" }}>Learn About Cryptocurrency</h3>

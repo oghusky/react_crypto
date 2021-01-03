@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import API from '../utils/API';
 import StockBar from './StockBar';
 import Container from 'react-bootstrap/Container'
+import SEO from './SEO'
 export default function Symbol() {
   const params = useParams();
   const [stock, setStock] = useState({});
@@ -32,6 +33,7 @@ export default function Symbol() {
   }
   return (
     <>
+      <SEO title={params.symbol} />
       <StockBar />
       <Container style={{ display: `${stock.hasOwnProperty("header") ? "block" : "none"}` }}>
         <div id="stock-info" style={{ color: "#f7f7f7", width: "60%", margin: "0 auto" }}>

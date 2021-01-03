@@ -5,11 +5,13 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card'
 import StockBar from './StockBar'
 import BitContext from '../utils/bitContext';
+import SEO from './SEO';
 export default function Articles() {
   const { articles } = useContext(BitContext);
 
   return (
     <div>
+      <SEO title="Articles" />
       <StockBar />
       <Container style={{ width: "90%", margin: "0 auto" }}>
         <h3 className="text-center my-3 article-header"><span style={{ color: "#BB86FC", letterSpacing: ".12rem", fontWeight: "bold" }}>Crypto</span>currency News</h3>
