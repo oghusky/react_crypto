@@ -69,8 +69,9 @@ exports.getYouTube = async (req, res) => {
 
     const getYoutube = async (url) => {
       const yt = await fetchData(url);
-      const tube = yt("body").children()[9].children[0].data.split("var ytInitialData = ")[1].split(";")[0];
+      const tube = yt("body").children()[10].children[0].data.split("var ytInitialData = ")[1].slice(0, -1);
       const parsed = JSON.parse(tube);
+      // res.json({ parsed })
       const vid_arr = parsed.contents.twoColumnSearchResultsRenderer.primaryContents.sectionListRenderer.contents[0].itemSectionRenderer.contents
       const vids = vid_arr.filter(item => item.hasOwnProperty("videoRenderer")).map(item => item.videoRenderer.videoId)
       return vids
