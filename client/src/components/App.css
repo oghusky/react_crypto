@@ -18,6 +18,11 @@ body{
   background-color: var(--bg) !important;
   color: var(--light-grey) !important;
 }
+
+div#App{
+  overflow-x: hidden;
+}
+
 /* navbar */
 nav.navbar span.navbar-brand{
   color: var(--white);

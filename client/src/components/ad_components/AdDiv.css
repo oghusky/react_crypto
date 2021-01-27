@@ -1,0 +1,27 @@
+#desktop-ad{
+  display:block;
+}
+
+#desktop-ad img{
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+}
+
+#mobile-ad{
+  display:none;
+}
+
+@media screen and (max-width:425px){
+  #mobile-ad img{
+    display: block;
+    margin: 0 auto;
+  }
+  #mobile-ad{
+    display: block;
+  }
+  #desktop-ad{
+    display: none;
+  }
+}

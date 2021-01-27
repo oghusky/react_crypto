@@ -7,6 +7,7 @@ import './App.css';
 // components
 import BitContext from '../utils/bitContext';
 import Navigation from './Navigation';
+import AdDiv from './ad_components/AdDiv';
 import Home from './Home';
 import Articles from './Articles';
 import Stocks from './Stocks'
@@ -62,9 +63,10 @@ function App() {
   }
   return (
     <Router>
-      <div>
+      <div id="App">
         <BitContext.Provider value={{ stocks, articles, sources, symbol, setSymbol, videos, setVideos }}>
           <Navigation />
+          <AdDiv />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/articles" component={Articles} />
@@ -75,6 +77,7 @@ function App() {
             <Route exact path="/*" component={ErrorPage} />
           </Switch>
         </BitContext.Provider>
+        <AdDiv />
         <Footer />
       </div>
     </Router>
